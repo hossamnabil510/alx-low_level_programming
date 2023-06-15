@@ -3,7 +3,7 @@
 /**
  * main - prints text 
  * description: c programming
- * Return:zero
+ * Return:zero sucessful
  */
 
 int main(void)
