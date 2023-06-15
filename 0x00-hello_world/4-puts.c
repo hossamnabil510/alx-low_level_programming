@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * comment
+main - contain functions 
+return: 0 is sucess
  * */
 int main(void)
 {
