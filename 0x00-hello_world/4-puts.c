@@ -2,6 +2,7 @@
 
 /**
  * main - prints text 
+ * description: c programming
  * Return:0 
 */
 int main(void)
