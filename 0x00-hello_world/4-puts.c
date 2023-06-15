@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-main - contain functions 
-return: 0 is sucess
+ * main - contain functions 
+ * return: 0 is s
  * */
 int main(void)
 {
