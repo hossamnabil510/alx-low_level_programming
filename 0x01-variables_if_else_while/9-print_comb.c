@@ -14,8 +14,11 @@ int main(void)
 	while (dig <= 57)
 	{
 		putchar(dig);
-		putchar(',');
-		putchar(' ');
+		if (dig != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 		dig++;
 	}
 	putchar('\n');
