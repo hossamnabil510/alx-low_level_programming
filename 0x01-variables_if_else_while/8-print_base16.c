@@ -10,14 +10,14 @@
 int main(void)
 {
 	int mychar = 48;
-	int CA = 65;
+	int CA = 97;
 
 	while (mychar <= 57)
 	{
 		putchar(mychar);
 		mychar++;
 	}
-	while (CA <=70)
+	while (CA <=102)
 	{
 		putchar(CA);
 		CA++;
