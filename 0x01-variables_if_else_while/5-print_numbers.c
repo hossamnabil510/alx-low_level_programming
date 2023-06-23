@@ -13,8 +13,9 @@ int main(void)
 
 	while (mychar <= 9)
 	{
-		printf("%i \n", mychar);
+		printf("%i", mychar);
 		mychar++;
 	}
+	putchar('\n');
 	return (0);
 }
