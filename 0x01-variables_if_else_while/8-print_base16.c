@@ -17,7 +17,7 @@ int main(void)
 		putchar(mychar);
 		mychar++;
 	}
-	while (CA <=102)
+	while (CA <= 102)
 	{
 		putchar(CA);
 		CA++;
