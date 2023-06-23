@@ -9,14 +9,14 @@
 
 int main(void)
 {
-	int mychar = 48;
+	int dig = 48;
 
-	while (mychar <= 57)
+	while (dig <= 57)
 	{
-		putchar(mychar);
+		putchar(dig);
 		putchar(',');
 		putchar(' ');
-		mychar++;
+		dig++;
 	}
 	putchar('\n');
 	return (0);
