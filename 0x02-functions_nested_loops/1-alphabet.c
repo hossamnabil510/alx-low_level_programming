@@ -2,11 +2,11 @@
 #include "main.h"
 /**
  * main - entry point
- * Description: _putchar using putchar prototype
+ * Description: print_alphabet from a - z using putchar prototype
  * Return: zero sucess
 */
 
-int main(void)
+void print_alphabet(void)
 {
 	int c;
 
@@ -16,5 +16,4 @@ int main(void)
 			c++;
 		}
 			_putchar('\n');
-	return (0);
 }
