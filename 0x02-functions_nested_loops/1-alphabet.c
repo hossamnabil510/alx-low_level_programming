@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	int c = 97;
+	int c;
 
-		while (c <= 122)
+	for (c = 97; c <= 122; c++)
 		{
 			_putchar(c);
 			c++;
