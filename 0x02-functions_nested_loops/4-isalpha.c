@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _islower - is a function to determine lowercase
+ * _isalpha - is a function to determine lowercase
  * @c: check the input
- * Return: 1 is lowercase oterwise is 0
+ * Return: 1 is lowercase or uppercase oterwise is 0
 */
 
 int _isalpha(int c)
