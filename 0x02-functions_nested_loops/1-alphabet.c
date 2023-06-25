@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - entry point
- * Description: print_alphabet from a - z using putchar prototype
+ * print_alphabet - used to print a - z by putchar
  * Return: zero sucess
 */
 
 void print_alphabet(void)
+
 {
 	int c;
 
-	for (c = 97; c <= 122; c++)
+	for (c = 'a'; c <= 'z'; c++)
 		{
 			_putchar(c);
 			c++;
