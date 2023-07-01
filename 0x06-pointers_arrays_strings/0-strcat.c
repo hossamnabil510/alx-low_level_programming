@@ -2,8 +2,8 @@
 
 /**
  * _strcat - concatenates two strings
- * @dest: input
- * @src: output
+ * @dest: input value
+ * @src: output value
  * Return: void
 */
 
