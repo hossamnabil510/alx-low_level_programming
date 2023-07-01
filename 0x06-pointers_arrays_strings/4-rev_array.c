@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * @a: array
  * reverse_array - reverse array of ints
- * @n: num of array elements
+ * @a: array value
+ * @n: number of array elements
  * Return: void
 */
 
