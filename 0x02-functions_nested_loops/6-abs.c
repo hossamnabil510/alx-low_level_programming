@@ -14,4 +14,5 @@ int _abs(int n)
 	}
 	else
 		printf("%u", n);
+	return (0);
 }
