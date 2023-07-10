@@ -13,7 +13,7 @@ int _abs(int n)
 		_putchar(n);
 	}
 	else
-		printf("%i", -1 * n);
+		printf("%i", -1*n);
 	return (0);
 
 }
