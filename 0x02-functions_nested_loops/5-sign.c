@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * print_sign - is a function to determine positive and negative nums
- * @c: check the input
+ * @n: check the input
  * Return: 1 is lowercase or  oterwise is 0
 */
 
@@ -24,5 +24,4 @@ int print_sign(int n)
 		printf("0");
 		return (0);
 	}
-	return (0);
 }
