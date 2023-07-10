@@ -7,12 +7,5 @@
 
 int _abs(int n)
 {
-
-	if (n >= 0)
-	{
-		_putchar(n);
-	}
-	else
-		printf("%u", n);
-	return (0);
+		printf("%u" , n);
 }
