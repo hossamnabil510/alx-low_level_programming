@@ -7,5 +7,6 @@
 
 int _abs(int n)
 {
-		printf("%u" , n);
+	printf("%u" , n);
+	return (0);
 }
