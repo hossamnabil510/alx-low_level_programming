@@ -5,20 +5,22 @@
  * Return: 0 umber of _
 */
 
-int main()
+int main(void)
 {
 	int n;
 
 	for (n = 1; n <= 100; n++)
 	{
-		if (n = 3**)
+		if (n % 3 == 0 ! n% 5 == 0)
 			_printf("Fizz");
-		else if (n = 3**)
+		if (n % 5 == 0 ! n % 3 == 0)
 			_printf("Buzz");	
-		else if (n = 15**)
+		if (n % 15 == 0)
 			_printf("FizzBuzz");
 		else
 			_printf("%i", n);
+		_printf(" ");
 	}
+	return (0);
 }
 
