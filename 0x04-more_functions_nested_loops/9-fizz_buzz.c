@@ -11,15 +11,15 @@ int main(void)
 
 	for (n = 1; n <= 100; n++)
 	{
-		if (n % 3 == 0 ! n% 5 == 0)
-			_printf("Fizz");
-		if (n % 5 == 0 ! n % 3 == 0)
-			_printf("Buzz");	
+		if (n % 3 == 0 !n % 5 == 0)
+			printf("Fizz");
+		if (n % 5 == 0 !n % 3 == 0)
+			printf("Buzz");
 		if (n % 15 == 0)
-			_printf("FizzBuzz");
+			printf("FizzBuzz");
 		else
-			_printf("%i", n);
-		_printf(" ");
+			printf("%i", n);
+		printf(" ");
 	}
 	return (0);
 }
