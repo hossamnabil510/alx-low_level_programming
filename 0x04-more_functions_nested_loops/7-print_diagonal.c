@@ -16,8 +16,8 @@ void print_diagonal(int n);
 	else
 	{
 		for (c = 1 ; c <= n; c++)
-			_putchar(92);
-			_putchar('\n');
+			_putchar(' ');
+		_putchar(92);
 		_putchar('\n');
 	}
 }
