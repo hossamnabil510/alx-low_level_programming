@@ -18,7 +18,6 @@ void print_line(int n)
 		for (c = 1 ; c <= n; c++)
 			_putchar('\\');
 			_putchar('\n');
-			_putchar(' ');
 		_putchar('\n');
 	}
 }
