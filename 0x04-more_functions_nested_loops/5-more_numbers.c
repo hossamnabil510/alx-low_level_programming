@@ -19,8 +19,6 @@ void more_numbers(void)
 			if (d > '9')
 			{
 				f = 10;
-				printf("%i\n", f)
-				f++;
 			}
 		}
 		_putchar(d);
