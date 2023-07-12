@@ -7,7 +7,7 @@
  * Return: if uppercase 0 otherwise
 */
 
-void print_diagonal(int n);
+void print_diagonal(int n)
 {
 	int c, d;
 
