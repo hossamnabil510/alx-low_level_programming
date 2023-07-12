@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
- * print_line - cheack if the character is upper or lower
+ * print_diagonal - cheack if the character is upper or lower
  * @n: number of _
  * Return: if uppercase 0 otherwise
 */
 
-void print_line(int n)
+void print_diagonal(int n);
 {
 	int c;
 
