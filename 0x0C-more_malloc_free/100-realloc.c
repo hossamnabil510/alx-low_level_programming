@@ -2,12 +2,12 @@
 
 /**
  * *_realloc - reallocates the memory
- * @ptr: repointer to the memory 
+ * @ptr: repointer to the memory
  * @old_size: size of the allocated ptr memory
  * @new_size: new size of the new memory
  * Return: pointer to the new allochated
  */
-void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	char *ptr1;
 	char *old_ptr;
